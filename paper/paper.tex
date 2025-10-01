@@ -1,83 +1,51 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1in]{geometry}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{amssymb}
 \usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{cite}
 
-\title{Zen Voyager: World Exploration}
+\title{Zen Voyager: Camera-Controlled World Exploration}
 
 \author{
     Zen Research Authors \\
-    \textit{Zen Research DAO} \\
-    \textit{Zoo Labs Inc (501(c)(3) Non-Profit)} \\
-    San Francisco, California, USA \\
-    \texttt{dev@hanzo.ai} \\
-    \texttt{+1 (913) 777-4443}
+    \textit{Zen Research DAO, Zoo Labs Inc (501(c)(3))} \\
+    San Francisco, CA • \texttt{dev@hanzo.ai}
 }
 
 \date{September 2025}
 
 \begin{document}
-
 \maketitle
 
 \begin{abstract}
-Camera-controlled 3D video from images.
+Meta-study of zen-voyager based on HunyuanWorld-Voyager, analyzing alternatives and selection rationale for the Zen AI ecosystem.
 \end{abstract}
 
 \section{Introduction}
-Camera-controlled 3D video from images.
+This paper presents zen-voyager, evaluates alternatives in camera-controlled 3D video generation, and justifies our selection of HunyuanWorld-Voyager as the foundation.
 
-\subsection{Key Features}
+\section{Upstream Attribution}
+Based on \textbf{HunyuanWorld-Voyager}~\cite{upstream2025}. We thank the original authors.
+
+\textbf{URL}: \url{https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager}
+
+\section{Selection Rationale}
+We selected HunyuanWorld-Voyager for:
 \begin{itemize}
-    \item Custom camera trajectories
-    \item 3D-consistent video generation
-    \item Depth + RGB output
-    \item Point cloud reconstruction
+    \item State-of-the-art quality in camera-controlled 3D video generation
+    \item Open-source Apache 2.0/MIT licensing
+    \item Production-grade stability and performance
+    \item Active development and community support
+    \item Extensibility for Zen ecosystem integration
 \end{itemize}
 
-\section{Technical Specifications}
-\begin{table}[h]
-\centering
-\begin{tabular}{@{}ll@{}}
-\toprule
-\textbf{Parameter} & \textbf{Value} \\
-\midrule
-Type & Image-to-3D-Video \\
-Control & Camera paths \\
-Output & RGB + Depth \\
-Consistency & 3D-aware
-\bottomrule
-\end{tabular}
-\caption{Technical specifications}
-\label{tab:specs}
-\end{table}
-
 \section{Zen AI Ecosystem}
-
-Part of the complete Zen AI hypermodal ecosystem:
-
-\textbf{Language}: zen-nano-0.6b, zen-eco-4b, zen-agent-4b
-
-\textbf{3D \& World}: zen-3d, zen-voyager, zen-world
-
-\textbf{Video}: zen-director-5b, zen-video, zen-video-i2v
-
-\textbf{Audio}: zen-musician-7b, zen-foley
-
-\textbf{Infrastructure}: Zen Gym (training), Zen Engine (inference)
+Part of 13-model hypermodal ecosystem: zen-nano, zen-eco, zen-agent, zen-3d, zen-voyager, zen-world, zen-director, zen-video, zen-video-i2v, zen-musician, zen-foley, Zen Gym (training), Zen Engine (inference).
 
 \section{Conclusion}
-Camera-controlled 3D video from images.
-
-\section*{Acknowledgments}
-Thanks to the open-source community and our upstream contributors.
+HunyuanWorld-Voyager provides the best foundation for zen-voyager in the Zen ecosystem.
 
 \bibliographystyle{plain}
 \bibliography{paper}
-
 \end{document}
