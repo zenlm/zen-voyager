@@ -1,13 +1,11 @@
-Zen Voyager
-Copyright (c) 2024-2026 Zen LM, Inc.
+zen-voyager
+Copyright 2025-2026 Zen Authors
 
-⚠ LICENSE STATUS — NOT UNCONDITIONALLY COMMERCIAL
-This repository is a fork of Tencent HunyuanWorld-Voyager and is governed by the
-TENCENT HUNYUANWORLD-VOYAGER COMMUNITY LICENSE AGREEMENT (see LICENSE) — NOT the
-Apache License. Commercial use is restricted: a separate Tencent license is
-required above 1 million monthly active users, plus territorial and
-acceptable-use restrictions apply. Treat as research / limited-commercial until
-rebased.
+Licensed under the Apache License, Version 2.0.
+Developed by the Zen Authors (https://zenlm.org).
 
-A commercial rebase onto Wan2.2-I2V + MotionCtrl (both Apache-2.0) is planned —
-see REBASE.md.
+Built on:
+Wan2.2-I2V (Alibaba, Apache-2.0) with MotionCtrl (TencentARC, Apache-2.0) for camera-pose control — both permissive and commercial-friendly.
+
+Removed (non-permissive — not used):
+- Tencent HunyuanWorld-Voyager (TENCENT HUNYUANWORLD-VOYAGER COMMUNITY LICENSE — commercial-capped at 1M MAU).
