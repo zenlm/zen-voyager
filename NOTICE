@@ -1,9 +1,13 @@
-zen-voyager
-Copyright 2025-2026 Zen Authors
+Zen Voyager
+Copyright (c) 2024-2026 Zen LM, Inc.
 
-Licensed under the Apache License, Version 2.0.
-Developed by the Zen Authors (https://zenlm.org).
+⚠ LICENSE STATUS — NOT UNCONDITIONALLY COMMERCIAL
+This repository is a fork of Tencent HunyuanWorld-Voyager and is governed by the
+TENCENT HUNYUANWORLD-VOYAGER COMMUNITY LICENSE AGREEMENT (see LICENSE) — NOT the
+Apache License. Commercial use is restricted: a separate Tencent license is
+required above 1 million monthly active users, plus territorial and
+acceptable-use restrictions apply. Treat as research / limited-commercial until
+rebased.
 
-Built on:
-- Wan2.2 (https://github.com/Wan-Video/Wan2.2), Apache-2.0.
-- TRELLIS (https://github.com/microsoft/TRELLIS), MIT License.
+A commercial rebase onto Wan2.2-I2V + MotionCtrl (both Apache-2.0) is planned —
+see REBASE.md.
