@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="zen-voyager" width="880"></p>
+
 # Zen Voyager
 
 Image-to-video generation with explicit camera control.
